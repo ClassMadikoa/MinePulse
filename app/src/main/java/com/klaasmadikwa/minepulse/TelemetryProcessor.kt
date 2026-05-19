@@ -14,7 +14,7 @@ class TelemetryProcessor(context: Context) {
      */
     fun getLiveTelemetryStream(): Flow<HaulTruckMetrics> = flow {
         while (true) {
-            // 1. Ingest raw data (Simulating sensors)
+            
             val raw = HaulTruckMetrics(
                 payloadTonnes = (190..210).random().toFloat(),
                 speedKph = (30..55).random().toFloat(),
@@ -22,13 +22,13 @@ class TelemetryProcessor(context: Context) {
                 vibration = (2..15).random().toFloat()
             )
 
-            // 2. Process through Forensic & Predictive Maintenance logic
+            
             val processed = processTelemetry(raw)
 
-            // 3. Emit the cleaned data to the UI "pipe"
+            
             emit(processed)
 
-            // 4. Frequency of the heartbeat (2 seconds)
+            
             delay(2000)
         }
     }
