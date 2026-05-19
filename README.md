@@ -17,6 +17,9 @@ Built to simulate real-world Industrial IoT (IIoT) environments, MinePulse focus
 
 # 📱 Dashboard Preview
 
+<img width="1080" height="2400" alt="Screenshot_20260519_065646" src="https://github.com/user-attachments/assets/1897fc18-712c-4d23-97dd-d7443afb52e5" />
+
+
 ## Fleet Monitoring Dashboard
 
 > Real-time haul truck monitoring with telemetry, alerts, fatigue analysis, and predictive maintenance.
