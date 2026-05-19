@@ -28,14 +28,14 @@ android {
         }
     }
 
-    // --- ADD THIS PACKAGING BLOCK HERE ---
+    
     packaging {
         resources {
             excludes += "/META-INF/INDEX.LIST"
             excludes += "/META-INF/io.netty.versions.properties"
         }
     }
-    // -------------------------------------
+    
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
