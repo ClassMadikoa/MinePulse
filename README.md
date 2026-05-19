@@ -170,8 +170,6 @@ Mobile Dashboard UI
 ✅ Telemetry visualization
 ✅ System health overview
 ✅ Alert center
-✅ Location tracking
-✅ Fleet analytics
 
 ---
 
@@ -250,7 +248,7 @@ MinePulse/
 # 👨‍💻 Developer
 
 Developed by Class Madikoa
-Computer Science Student | Software Developer | Industrial IoT Enthusiast
+Computer Science Student | Software Developer | Industrial IoT Enthusiast | Aspiring Data Engineer 
 
 ---
 
