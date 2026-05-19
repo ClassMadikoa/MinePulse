@@ -1,0 +1,7 @@
+data class MachineMetrics(
+    val machineName: String = "Conveyor Belt B1",
+    val temperature: Float = 45.5f,
+    val vibration: Float = 3.2f,
+    val status: String = "Operational",
+    val isDataAnomalous: Boolean = false // This will be your "Detective" flag
+)
