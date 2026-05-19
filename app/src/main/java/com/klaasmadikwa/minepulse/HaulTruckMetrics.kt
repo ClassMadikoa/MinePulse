@@ -6,12 +6,12 @@ package com.klaasmadikwa.minepulse
  */
 data class HaulTruckMetrics(
     val truckId: String = "TRK-204",
-    val payloadTonnes: Float = 0f,        // Payload Monitoring
-    val speedKph: Float = 0f,            // Fleet Management
-    val fatigueScore: Float = 0f,        // Driver Safety
-    val engineTemp: Float = 0f,          // Predictive Maintenance
+    val payloadTonnes: Float = 0f,        
+    val speedKph: Float = 0f,            
+    val fatigueScore: Float = 0f,        
+    val engineTemp: Float = 0f,          
     val isAnomalyDetected: Boolean = false,
     val statusMessage: String = "System Ready",
-    val vibration: Float = 0f,            // Maintenance Monitoring
+    val vibration: Float = 0f,            
 )
 
